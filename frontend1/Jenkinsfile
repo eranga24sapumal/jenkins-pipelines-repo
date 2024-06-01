@@ -11,14 +11,7 @@ pipeline {
             }
         }
         
-        stage('List Files') {
-            steps {
-                // List files in the workspace
-                echo "folder"
-                sh "pwd"
-                sh 'ls -la'
-            }
-        }
+     
     }
 
     // post {
